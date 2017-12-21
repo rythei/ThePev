@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>The Pev</title>
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#container #stage {
+  position: absolute;
+  outline: 2px solid black;
+  top: 500px; left: 1000px;
+  background-color: 'grey';
+}
+body {
+  text-align:center;
+  font-family: helvetica;
+}
+.bg {
+    /* The image used */
+    background-image: url("img/the-pev-landing-2.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+</head>
+<body>
+
+  <div id="container">
+    <script src="snake.js"></script>
+    <canvas id="stage" height="400" width="520"></canvas>
+</div>
+
+
+
+<div class="bg"></div>
+</body>
+</html>
